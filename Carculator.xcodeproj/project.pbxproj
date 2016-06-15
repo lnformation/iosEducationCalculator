@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0408881D11410800C7A38A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408871D11410800C7A38A /* main.m */; };
+		CB04088B1D11410800C7A38A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04088A1D11410800C7A38A /* AppDelegate.m */; };
+		CB04088E1D11410800C7A38A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04088D1D11410800C7A38A /* ViewController.m */; };
+		CB0408911D11410800C7A38A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB04088F1D11410800C7A38A /* Main.storyboard */; };
+		CB0408931D11410800C7A38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0408921D11410800C7A38A /* Assets.xcassets */; };
+		CB0408961D11410800C7A38A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0408941D11410800C7A38A /* LaunchScreen.storyboard */; };
+		CB0408A11D11410800C7A38A /* CarculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408A01D11410800C7A38A /* CarculatorTests.m */; };
+		CB0408AC1D11410800C7A38A /* CarculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408AB1D11410800C7A38A /* CarculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB04089D1D11410800C7A38A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB04087B1D11410800C7A38A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0408821D11410800C7A38A;
+			remoteInfo = Carculator;
+		};
+		CB0408A81D11410800C7A38A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB04087B1D11410800C7A38A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0408821D11410800C7A38A;
+			remoteInfo = Carculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB0408831D11410800C7A38A /* Carculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0408871D11410800C7A38A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB0408891D11410800C7A38A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB04088A1D11410800C7A38A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB04088C1D11410800C7A38A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB04088D1D11410800C7A38A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB0408901D11410800C7A38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB0408921D11410800C7A38A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB0408951D11410800C7A38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB0408971D11410800C7A38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB04089C1D11410800C7A38A /* CarculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0408A01D11410800C7A38A /* CarculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarculatorTests.m; sourceTree = "<group>"; };
+		CB0408A21D11410800C7A38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0408A71D11410800C7A38A /* CarculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0408AB1D11410800C7A38A /* CarculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarculatorUITests.m; sourceTree = "<group>"; };
+		CB0408AD1D11410800C7A38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0408801D11410800C7A38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0408991D11410800C7A38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0408A41D11410800C7A38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB04087A1D11410800C7A38A = {
+			isa = PBXGroup;
+			children = (
+				CB0408851D11410800C7A38A /* Carculator */,
+				CB04089F1D11410800C7A38A /* CarculatorTests */,
+				CB0408AA1D11410800C7A38A /* CarculatorUITests */,
+				CB0408841D11410800C7A38A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0408841D11410800C7A38A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0408831D11410800C7A38A /* Carculator.app */,
+				CB04089C1D11410800C7A38A /* CarculatorTests.xctest */,
+				CB0408A71D11410800C7A38A /* CarculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0408851D11410800C7A38A /* Carculator */ = {
+			isa = PBXGroup;
+			children = (
+				CB0408891D11410800C7A38A /* AppDelegate.h */,
+				CB04088A1D11410800C7A38A /* AppDelegate.m */,
+				CB04088C1D11410800C7A38A /* ViewController.h */,
+				CB04088D1D11410800C7A38A /* ViewController.m */,
+				CB04088F1D11410800C7A38A /* Main.storyboard */,
+				CB0408921D11410800C7A38A /* Assets.xcassets */,
+				CB0408941D11410800C7A38A /* LaunchScreen.storyboard */,
+				CB0408971D11410800C7A38A /* Info.plist */,
+				CB0408861D11410800C7A38A /* Supporting Files */,
+			);
+			path = Carculator;
+			sourceTree = "<group>";
+		};
+		CB0408861D11410800C7A38A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0408871D11410800C7A38A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB04089F1D11410800C7A38A /* CarculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0408A01D11410800C7A38A /* CarculatorTests.m */,
+				CB0408A21D11410800C7A38A /* Info.plist */,
+			);
+			path = CarculatorTests;
+			sourceTree = "<group>";
+		};
+		CB0408AA1D11410800C7A38A /* CarculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0408AB1D11410800C7A38A /* CarculatorUITests.m */,
+				CB0408AD1D11410800C7A38A /* Info.plist */,
+			);
+			path = CarculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0408821D11410800C7A38A /* Carculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0408B01D11410800C7A38A /* Build configuration list for PBXNativeTarget "Carculator" */;
+			buildPhases = (
+				CB04087F1D11410800C7A38A /* Sources */,
+				CB0408801D11410800C7A38A /* Frameworks */,
+				CB0408811D11410800C7A38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carculator;
+			productName = Carculator;
+			productReference = CB0408831D11410800C7A38A /* Carculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB04089B1D11410800C7A38A /* CarculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0408B31D11410800C7A38A /* Build configuration list for PBXNativeTarget "CarculatorTests" */;
+			buildPhases = (
+				CB0408981D11410800C7A38A /* Sources */,
+				CB0408991D11410800C7A38A /* Frameworks */,
+				CB04089A1D11410800C7A38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB04089E1D11410800C7A38A /* PBXTargetDependency */,
+			);
+			name = CarculatorTests;
+			productName = CarculatorTests;
+			productReference = CB04089C1D11410800C7A38A /* CarculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB0408A61D11410800C7A38A /* CarculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0408B61D11410800C7A38A /* Build configuration list for PBXNativeTarget "CarculatorUITests" */;
+			buildPhases = (
+				CB0408A31D11410800C7A38A /* Sources */,
+				CB0408A41D11410800C7A38A /* Frameworks */,
+				CB0408A51D11410800C7A38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0408A91D11410800C7A38A /* PBXTargetDependency */,
+			);
+			name = CarculatorUITests;
+			productName = CarculatorUITests;
+			productReference = CB0408A71D11410800C7A38A /* CarculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB04087B1D11410800C7A38A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "MF839-012";
+				TargetAttributes = {
+					CB0408821D11410800C7A38A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = C7H8AE577L;
+					};
+					CB04089B1D11410800C7A38A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = C7H8AE577L;
+						TestTargetID = CB0408821D11410800C7A38A;
+					};
+					CB0408A61D11410800C7A38A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = C7H8AE577L;
+						TestTargetID = CB0408821D11410800C7A38A;
+					};
+				};
+			};
+			buildConfigurationList = CB04087E1D11410800C7A38A /* Build configuration list for PBXProject "Carculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB04087A1D11410800C7A38A;
+			productRefGroup = CB0408841D11410800C7A38A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0408821D11410800C7A38A /* Carculator */,
+				CB04089B1D11410800C7A38A /* CarculatorTests */,
+				CB0408A61D11410800C7A38A /* CarculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0408811D11410800C7A38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0408961D11410800C7A38A /* LaunchScreen.storyboard in Resources */,
+				CB0408931D11410800C7A38A /* Assets.xcassets in Resources */,
+				CB0408911D11410800C7A38A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB04089A1D11410800C7A38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0408A51D11410800C7A38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB04087F1D11410800C7A38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB04088E1D11410800C7A38A /* ViewController.m in Sources */,
+				CB04088B1D11410800C7A38A /* AppDelegate.m in Sources */,
+				CB0408881D11410800C7A38A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0408981D11410800C7A38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0408A11D11410800C7A38A /* CarculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0408A31D11410800C7A38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0408AC1D11410800C7A38A /* CarculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB04089E1D11410800C7A38A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0408821D11410800C7A38A /* Carculator */;
+			targetProxy = CB04089D1D11410800C7A38A /* PBXContainerItemProxy */;
+		};
+		CB0408A91D11410800C7A38A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0408821D11410800C7A38A /* Carculator */;
+			targetProxy = CB0408A81D11410800C7A38A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB04088F1D11410800C7A38A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0408901D11410800C7A38A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB0408941D11410800C7A38A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0408951D11410800C7A38A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0408AE1D11410800C7A38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB0408AF1D11410800C7A38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0408B11D11410800C7A38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.Carculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB0408B21D11410800C7A38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.Carculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB0408B41D11410800C7A38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.CarculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carculator.app/Carculator";
+			};
+			name = Debug;
+		};
+		CB0408B51D11410800C7A38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.CarculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carculator.app/Carculator";
+			};
+			name = Release;
+		};
+		CB0408B71D11410800C7A38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.CarculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carculator;
+			};
+			name = Debug;
+		};
+		CB0408B81D11410800C7A38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.CarculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB04087E1D11410800C7A38A /* Build configuration list for PBXProject "Carculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0408AE1D11410800C7A38A /* Debug */,
+				CB0408AF1D11410800C7A38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0408B01D11410800C7A38A /* Build configuration list for PBXNativeTarget "Carculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0408B11D11410800C7A38A /* Debug */,
+				CB0408B21D11410800C7A38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB0408B31D11410800C7A38A /* Build configuration list for PBXNativeTarget "CarculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0408B41D11410800C7A38A /* Debug */,
+				CB0408B51D11410800C7A38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB0408B61D11410800C7A38A /* Build configuration list for PBXNativeTarget "CarculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0408B71D11410800C7A38A /* Debug */,
+				CB0408B81D11410800C7A38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB04087B1D11410800C7A38A /* Project object */;
+}
