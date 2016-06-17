@@ -15,6 +15,9 @@
 		CB0408961D11410800C7A38A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0408941D11410800C7A38A /* LaunchScreen.storyboard */; };
 		CB0408A11D11410800C7A38A /* CarculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408A01D11410800C7A38A /* CarculatorTests.m */; };
 		CB0408AC1D11410800C7A38A /* CarculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408AB1D11410800C7A38A /* CarculatorUITests.m */; };
+		CB0408BD1D1239F100C7A38A /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408BA1D1239F100C7A38A /* Calculator.m */; };
+		CB0408C11D123A1D00C7A38A /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408C01D123A1D00C7A38A /* Fraction.m */; };
+		CB0408C41D12869600C7A38A /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408C31D12869600C7A38A /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CB0408A71D11410800C7A38A /* CarculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0408AB1D11410800C7A38A /* CarculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarculatorUITests.m; sourceTree = "<group>"; };
 		CB0408AD1D11410800C7A38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0408B91D1239F100C7A38A /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		CB0408BA1D1239F100C7A38A /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		CB0408BF1D123A1D00C7A38A /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		CB0408C01D123A1D00C7A38A /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		CB0408C21D12869600C7A38A /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		CB0408C31D12869600C7A38A /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +110,14 @@
 		CB0408851D11410800C7A38A /* Carculator */ = {
 			isa = PBXGroup;
 			children = (
+				CB0408BF1D123A1D00C7A38A /* Fraction.h */,
+				CB0408C01D123A1D00C7A38A /* Fraction.m */,
+				CB0408B91D1239F100C7A38A /* Calculator.h */,
+				CB0408BA1D1239F100C7A38A /* Calculator.m */,
 				CB0408891D11410800C7A38A /* AppDelegate.h */,
 				CB04088A1D11410800C7A38A /* AppDelegate.m */,
+				CB0408C21D12869600C7A38A /* InfoViewController.h */,
+				CB0408C31D12869600C7A38A /* InfoViewController.m */,
 				CB04088C1D11410800C7A38A /* ViewController.h */,
 				CB04088D1D11410800C7A38A /* ViewController.m */,
 				CB04088F1D11410800C7A38A /* Main.storyboard */,
@@ -274,8 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB04088E1D11410800C7A38A /* ViewController.m in Sources */,
+				CB0408BD1D1239F100C7A38A /* Calculator.m in Sources */,
+				CB0408C41D12869600C7A38A /* InfoViewController.m in Sources */,
 				CB04088B1D11410800C7A38A /* AppDelegate.m in Sources */,
 				CB0408881D11410800C7A38A /* main.m in Sources */,
+				CB0408C11D123A1D00C7A38A /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
