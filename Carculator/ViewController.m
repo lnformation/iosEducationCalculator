@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Calculator.h"
 #import "InfoViewController.h"
+#import "PinkViewController.h"
 
 @interface ViewController ()
 
@@ -55,6 +56,14 @@
     
     [self performSegueWithIdentifier:@"pinkView" sender:self];
     
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ( [segue.identifier isEqualToString:@"pinkView"]){
+        PinkViewController * pinkView = [segue destinationViewController];
+        [pinkView changeColorFunc:^(UIColor * newColor){
+            [self.view setBackgroundColor:newColor];
+        }];
+    }
 }
 
 - (IBAction)clickPlus:(id)sender {

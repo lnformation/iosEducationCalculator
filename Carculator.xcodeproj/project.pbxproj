@@ -18,6 +18,7 @@
 		CB0408BD1D1239F100C7A38A /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408BA1D1239F100C7A38A /* Calculator.m */; };
 		CB0408C11D123A1D00C7A38A /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408C01D123A1D00C7A38A /* Fraction.m */; };
 		CB0408C41D12869600C7A38A /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408C31D12869600C7A38A /* InfoViewController.m */; };
+		CB0408C71D13B1FF00C7A38A /* PinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0408C61D13B1FF00C7A38A /* PinkViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		CB0408C01D123A1D00C7A38A /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		CB0408C21D12869600C7A38A /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		CB0408C31D12869600C7A38A /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		CB0408C51D13B1FF00C7A38A /* PinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinkViewController.h; sourceTree = "<group>"; };
+		CB0408C61D13B1FF00C7A38A /* PinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				CB0408941D11410800C7A38A /* LaunchScreen.storyboard */,
 				CB0408971D11410800C7A38A /* Info.plist */,
 				CB0408861D11410800C7A38A /* Supporting Files */,
+				CB0408C51D13B1FF00C7A38A /* PinkViewController.h */,
+				CB0408C61D13B1FF00C7A38A /* PinkViewController.m */,
 			);
 			path = Carculator;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB04088E1D11410800C7A38A /* ViewController.m in Sources */,
+				CB0408C71D13B1FF00C7A38A /* PinkViewController.m in Sources */,
 				CB0408BD1D1239F100C7A38A /* Calculator.m in Sources */,
 				CB0408C41D12869600C7A38A /* InfoViewController.m in Sources */,
 				CB04088B1D11410800C7A38A /* AppDelegate.m in Sources */,

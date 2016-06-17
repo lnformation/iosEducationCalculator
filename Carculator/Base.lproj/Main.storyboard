@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pink View Controller-->
         <scene sceneID="N2l-4h-nku">
             <objects>
-                <viewController id="sHQ-Th-YMT" sceneMemberID="viewController">
+                <viewController id="sHQ-Th-YMT" customClass="PinkViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fuD-te-Hof"/>
                         <viewControllerLayoutGuide type="bottom" id="r3l-1u-1aq"/>
@@ -30,7 +30,19 @@
                                     <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="close:" destination="sHQ-Th-YMT" eventType="touchUpInside" id="JSd-XC-F4G"/>
                                     <action selector="close:" destination="xTw-Qb-Hem" eventType="touchUpInside" id="ZOJ-N5-jOP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAW-bg-VGa">
+                                <rect key="frame" x="28" y="97" width="264" height="54"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="new funtion">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="close:" destination="xTw-Qb-Hem" eventType="touchUpInside" id="92S-GR-gRh"/>
+                                    <action selector="newFunction:" destination="sHQ-Th-YMT" eventType="touchUpInside" id="NSa-4o-nab"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -261,7 +273,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiP-Nq-YeZ">
                                 <rect key="frame" x="28" y="47" width="124" height="39"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="NEW">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
